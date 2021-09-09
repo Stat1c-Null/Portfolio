@@ -1,3 +1,9 @@
+body {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif;
+}
+
 #pfp {
   position: relative;
   left: 30%;
@@ -7,6 +13,7 @@
   margin-top: 10%;
   position: relative;
   left: 30%;
+  font-weight: 400;
 }
 
 #cover {
@@ -16,13 +23,17 @@
 }
 
 #header-title {
-  font-size: 6em;
+  font-size: 7em;
   font-weight: bold;
+  margin-left: 38%;
+  font-weight: 600;
 }
 
 #header-subtext {
-  font-size: 4em;
+  font-size: 5.5em;
   font-weight: bold;
+  margin-left: 35%;
+  font-weight: 400;
 }
 
 #header-subtext, #header-title{
@@ -31,21 +42,23 @@
   -webkit-text-stroke-color: black;
 }
 
-#sidebar-menu.sticky {
-  position: sticky;
+#menu-container {
+  position: fixed;
   top: 0;
+  left: 0;
 }
 
 #cover-button {
+  font-weight: 200;
   background-color: black;
-  color: #FFB344;
+  color: #ff01d5;
   border: 1px solid white;
   text-decoration: none;
   font-size: 1.5em;
   padding: 18px 10px;
   width: 200px;
   height: 80px;
-  margin: 2% 10%;
+  margin: 2% 0 0 48%;
   outline: none;
   transition: background-color 0.4s, color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
@@ -57,3 +70,19 @@
   color: black;
   background-color: white;
 }
+
+#aboutme {
+  margin-top: 20%;
+  padding: 0 0 30% 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+}
+
+#about-title{
+  padding: 5% 0 5% 30%;
+  font-size: 3em;
+  color: rgb(121, 5, 189);
+  font-weight: 400;
+}
+
