@@ -1,0 +1,59 @@
+#pfp {
+  position: relative;
+  left: 30%;
+}
+
+#title {
+  margin-top: 10%;
+  position: relative;
+  left: 30%;
+}
+
+#cover {
+  height: 50%;
+  width: 100%;
+  margin: 20% 0;
+}
+
+#header-title {
+  font-size: 6em;
+  font-weight: bold;
+}
+
+#header-subtext {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#header-subtext, #header-title{
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+#sidebar-menu.sticky {
+  position: sticky;
+  top: 0;
+}
+
+#cover-button {
+  background-color: black;
+  color: #FFB344;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 18px 10px;
+  width: 200px;
+  height: 80px;
+  margin: 2% 10%;
+  outline: none;
+  transition: background-color 0.4s, color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+#cover-button:hover {
+  box-shadow: 0 0.5em 0.5em -0.2em rgb(126, 126, 126);
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
