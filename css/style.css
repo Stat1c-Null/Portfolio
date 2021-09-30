@@ -112,6 +112,7 @@ body {
   height: 400px;
   margin-left: 30%;
   border: 3px solid rgb(121, 5, 189);
+  border-radius: 7px;
 }
 
 .img-side {
@@ -131,6 +132,17 @@ body {
   font-weight: 200;
 }
 
+@media screen and (min-width: 1920px) {
+  #about-title2 {
+    top: 143%;
+    left: 44%;
+  }
+  #side-list {
+    top: 147%;
+    left: 45%;
+  }
+}
+
 #skills{
   background-color: rgb(226, 226, 226);
   padding: 4% 0 30% 0;
@@ -145,7 +157,7 @@ body {
 
 #skills-title {
   position: absolute;
-  top: 262%;
+  top: 205%;
   left: 32%;
   font-size: 3em;
   color: white;
@@ -155,7 +167,20 @@ body {
 #skills-box{
   height: 30%;
   width: 60%;
-  background-color: rgb(80, 78, 78);
+  background-color: rgb(71, 70, 70);
   margin-left: 30%;
   padding: 0 60% 40% 0;
+  border-radius: 7px;
+}
+
+.skills-item {
+  position: absolute;
+  top: 223%;
+  left: 35%;
+  font-size: 1.8em;
+  font-weight: 400;
+  color: rgb(162, 0, 255);
+  padding: 1%;
+  background-color: rgb(226, 226, 226);
+  border-radius: 4px;
 }
