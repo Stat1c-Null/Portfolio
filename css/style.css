@@ -153,19 +153,18 @@ body {
   padding: 3px;
   width: 60%;
   margin: 0 0 5% 30%;
+  opacity: 0.6;
+  border-radius: 5px;
 }
 
 #skills-title {
-  position: absolute;
-  top: 205%;
-  left: 32%;
   font-size: 3em;
-  color: white;
+  color: rgb(121, 5, 189);
+  margin: 6% 0 6% 30%;
   font-weight: 400;
 }
 
 #skills-box{
-  height: 30%;
   width: 60%;
   background-color: rgb(71, 70, 70);
   margin-left: 30%;
@@ -174,13 +173,42 @@ body {
 }
 
 .skills-item {
-  position: absolute;
-  top: 223%;
-  left: 35%;
   font-size: 1.8em;
   font-weight: 400;
-  color: rgb(162, 0, 255);
-  padding: 1%;
-  background-color: rgb(226, 226, 226);
-  border-radius: 4px;
+  color: rgb(162, 0, 255);  
+  padding-bottom: 1em;
+}
+
+.skills-bar {
+  background-color: gray;
+  width: 350px;
+  height: 30px;
+  margin-left: 5%;
+  border-radius: 6px;
+  border: 2px black solid;
+}
+
+#skills-prog-p {
+  height: 100%;
+  width: 85%;
+  background-color: rgb(162, 0, 255); 
+  border-radius: 6px;
+  border: 2px black solid;
+}
+
+.skillbox {
+  padding: 3em 1em 2em 3em;
+}
+
+.skills-num {
+  margin-left: 106%;
+  color: white;
+}
+
+#skills-prog-w {
+  height: 100%;
+  width: 70%;
+  background-color: rgb(162, 0, 255); 
+  border-radius: 6px;
+  border: 2px black solid;
 }
