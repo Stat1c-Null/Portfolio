@@ -145,7 +145,7 @@ body {
 
 #skills{
   background-color: rgb(226, 226, 226);
-  padding: 4% 0 30% 0;
+  padding: 4% 0 10% 0;
 }
 
 #skills-divider {
@@ -157,7 +157,7 @@ body {
   border-radius: 5px;
 }
 
-#skills-title {
+.section-title {
   font-size: 3em;
   color: rgb(121, 5, 189);
   margin: 6% 0 6% 30%;
@@ -168,7 +168,7 @@ body {
   width: 60%;
   background-color: rgb(71, 70, 70);
   margin-left: 30%;
-  padding: 0 60% 40% 0;
+  padding: 0 60% 5% 0;
   border-radius: 7px;
 }
 
@@ -190,7 +190,7 @@ body {
 
 #skills-prog-p {
   height: 100%;
-  width: 85%;
+  width: 80%;
   background-color: rgb(162, 0, 255); 
   border-radius: 6px;
   border: 2px black solid;
@@ -201,14 +201,181 @@ body {
 }
 
 .skills-num {
-  margin-left: 106%;
+  margin-left: 103%;
   color: white;
 }
 
 #skills-prog-w {
   height: 100%;
+  width: 85%;
+  background-color: rgb(162, 0, 255); 
+  border-radius: 6px;
+  border: 2px black solid;
+}
+
+#skills-prog-js {
+  height: 100%;
   width: 70%;
   background-color: rgb(162, 0, 255); 
   border-radius: 6px;
   border: 2px black solid;
+}
+
+#skills-prog-c {
+  height: 100%;
+  width: 60%;
+  background-color: rgb(162, 0, 255); 
+  border-radius: 6px;
+  border: 2px black solid;
+}
+
+#skills-prog-j {
+  height: 100%;
+  width: 45%;
+  background-color: rgb(162, 0, 255); 
+  border-radius: 6px;
+  border: 2px black solid;
+}
+
+#skills-prog-un {
+  height: 100%;
+  width: 75%;
+  background-color: rgb(162, 0, 255); 
+  border-radius: 6px;
+  border: 2px black solid;
+}
+
+.skills-side {
+  position: absolute;
+  top: 280%;
+  left: 58%;
+}
+
+#side-title{
+  margin-left: 5%;
+}
+
+#resume {
+  background-color: rgb(226, 226, 226);
+  padding: 4% 0 10% 0;
+}
+
+#resume-container {
+  margin-left: 32%;
+}
+
+.subsec-title {
+  font-weight: 400;
+  font-size: 2em;
+  margin: 3% 0 6% 0;
+  color: #2900bd;
+}
+
+.resume-text {
+  margin: 0 0 3% 3%;
+  font-weight: 200;
+  font-size: 1.4em;
+}
+
+.resume-points {
+  margin:0 0 1% 4%;
+  font-weight: 200;
+  font-size: 1.1em;;
+}
+
+.resume-skills {
+  margin: 0 0 1% 2%;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+#projects {
+  background-color: rgb(226, 226, 226);
+  padding: 4% 0 10% 0;
+}
+
+#projects-container {
+  margin-left: 32%;
+}
+
+.project-pic {
+  width: 300px;
+  height: 200px;
+  border: 3px solid rgb(121, 5, 189);
+  border-radius: 7px;
+}
+
+#project-subtitle {
+  margin-left: 37%;
+}
+
+.project-title {
+  font-weight: 200;
+  font-size: 1.8em;
+  margin:2% 0 1% 8%;
+  color: black;
+}
+
+#link {
+  text-decoration: none;
+}
+
+.projects-side {
+  position: absolute;
+  top: 628.5%;
+  left: 55%;
+}
+
+#proj-side-title{
+  margin: 6% 0 1% 28%;
+}
+
+.project-side1 {
+  position: absolute;
+  top: 628.5%;
+  left: 78%;
+}
+
+.project-type {
+  margin-bottom: 9%;
+}
+
+.project-side3 {
+  position: absolute;
+  top: 690.5%;
+  left: 55%;
+}
+
+.project-side4 {
+  position: absolute;
+  top: 690.5%;
+  left: 78%;
+}
+
+.project-side5 {
+  position: absolute;
+  top: 751.5%;
+  left: 55%;
+}
+
+.project-side6 {
+  position: absolute;
+  top: 751.5%;
+  left: 78%;
+}
+
+#contactme {
+  background-color: rgb(226, 226, 226);
+  padding: 4% 0 40% 0;
+}
+
+#contact-form {
+  width: 60%;
+  height:100%;
+  margin: 0 0 5% 30%;
+}
+
+.input-group {
+  border: 1px solid black;
+  border-radius: 5px;
 }
