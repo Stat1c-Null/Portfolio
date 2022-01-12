@@ -52,37 +52,37 @@
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="#cover" class="nav-link text-white">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
           Home
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="#aboutme" class="nav-link text-white">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
           About Me
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="#skills" class="nav-link text-white">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#skills-list"/></svg>
           Skills
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="#xresume" class="nav-link text-white">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#resume"/></svg>
           Resume
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="#projects" class="nav-link text-white">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#portfolio"/></svg>
           Projects
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-white">
+        <a href="#contactme" class="nav-link text-white">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#mailbox"/></svg>
           Contact Me
         </a>
@@ -181,7 +181,7 @@
   </div>
 </section>
 <!--RESUME-->
-<section>
+<section id="xresume">
   <div id="resume">
     <hr id="skills-divider">
     <h2 class="section-title">Resume</h2>
@@ -275,22 +275,38 @@
     </div>
   </div>
 </section>
-
+<!--CONTACT ME FORM-->
 <section>
   <div id="contactme">
     <hr id="skills-divider">
     <h2 class="section-title">Contact Me</h2>
     <div id="contact-form">
+      <!--Name for EMail-->
       <div class="input-group">
-        <span class="input-group-text">Name</span>
+        <span class="input-group-text" id="contact-theme">Name</span>
         <input type="text" aria-label="First name" class="form-control" placeholder="First Name">
         <input type="text" aria-label="Last name" class="form-control" placeholder="Last Name">
       </div>
       <br>
+      <!--Subject for EMail-->
       <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Subject</span>
+        <span class="input-group-text" id="contact-theme">Subject</span>
         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
       </div>
+      
+      <!--EMAIL-->
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="contact-theme">EMail</span>
+        <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      
+      <!--Body for the Email-->
+      <div class="input-group">
+        <span class="input-group-text" id="contact-theme">Message</span>
+        <textarea class="form-control" aria-label="Message"></textarea>
+      </div>
+      <!--Send Button-->
+      <button type="button" class="btn btn-outline-light" id="contact-button">Send Email</button>
     </div>
   </div>
 </section>
